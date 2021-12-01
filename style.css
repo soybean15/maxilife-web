@@ -320,27 +320,22 @@ color: rgb(92, 91, 91);
 /*About HTMl*/
 
 .aboutcontent{
-    overflow:scroll;
-    overflow-x: hidden;
-    position: relative;
-    text-align: center;
-    height: 670px;
     
-    position: relative;
-    background-size: cover;
+    background: url("img/aboutlogo.png");
+    text-align: center;
+ 
+    background-size: contain;
     background-repeat: no-repeat;
     background-position:center;
     
 }
 .content2{
-    text-align: center;
-    position: absolute;
+    z-index:1;
     top: 8px;
-  
+ 
     margin: auto;
     padding: 50px;
-    left: 50%;
-    transform: translate(-50%, -0%);
+   
    
 }
 .mission{
@@ -366,10 +361,9 @@ color: rgb(92, 91, 91);
     width: 600px;
     height: 600px;
     filter: opacity(30%);
+    z-index:0;
 }
 
-.fixed{
-    position: fixed;
-}
+
 
 /*end of About HTMl*/
