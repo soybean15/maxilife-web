@@ -332,22 +332,45 @@ color: rgb(92, 91, 91);
 .content2{
     z-index:1;
     top: 8px;
- 
+    font-weight: bold;
     margin: auto;
     padding: 50px;
    
    
 }
 .mission{
-
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
     padding: 10px;
+    background-color: black;
+    color:white;
+    opacity: .6;
+   
 }
 .mission p{
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bold;
-    font-size: 1.2em;
+    font-family: 'Roboto Condensed', sans-serif;
+   
+    font-size: 1.6em;
+}
+.vision{
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    padding: 10px;
+
+    background-color: black;
+    color:white;
+    opacity: .6;
+    
+}
+
+.vision p{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.6em;
 }
 .missionh1{
+ 
     font-family: 'Brush Script MT', cursive;
     font-weight: bold;
     font-size: 3em;
@@ -364,6 +387,8 @@ color: rgb(92, 91, 91);
     z-index:0;
 }
 
-
+.filler{
+    height: 200px;
+}
 
 /*end of About HTMl*/
