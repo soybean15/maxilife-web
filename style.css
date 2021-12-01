@@ -320,9 +320,11 @@ color: rgb(92, 91, 91);
 /*About HTMl*/
 
 .aboutcontent{
+    overflow:scroll;
+    overflow-x: hidden;
     position: relative;
     text-align: center;
-    border: 1p solid black;
+    height: 670px;
     
     position: relative;
     background-size: cover;
@@ -342,7 +344,7 @@ color: rgb(92, 91, 91);
    
 }
 .mission{
-    
+
     padding: 10px;
 }
 .mission p{
@@ -360,9 +362,14 @@ color: rgb(92, 91, 91);
     color:#0213D6 ;
 }
 .bgimage{
+    max-width: 100%;
+    width: 600px;
     height: 600px;
     filter: opacity(30%);
 }
 
+.fixed{
+    position: fixed;
+}
 
 /*end of About HTMl*/
