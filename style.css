@@ -317,10 +317,13 @@ color: rgb(92, 91, 91);
         
     }
     .aboutcontent{
+       
+    font-family: 'Lato', sans-serif;
+    font-family: 'Oswald', sans-serif;
     background-position: center-top;
     font-weight: bold;
     padding: 0px;
-    font-size: .6em;}
+    font-size: .7em;}
 }
 
 /*About HTMl*/
@@ -353,7 +356,8 @@ color: rgb(92, 91, 91);
    
 }
 .mission p{
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Oswald', sans-serif;
     font-weight: bold;
     font-size: 1.6em;
 }
@@ -368,7 +372,8 @@ color: rgb(92, 91, 91);
 }
 
 .vision p{
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Oswald', sans-serif;
     font-weight: bold;
     font-size: 1.6em;
 }
