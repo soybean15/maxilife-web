@@ -339,13 +339,11 @@ color: rgb(92, 91, 91);
    
 }
 .mission{
-    border-top: 2px solid black;
-    border-left: 2px solid black;
-    border-right: 2px solid black;
+   
     padding: 10px;
-    background-color: black;
-    color:white;
-    opacity: .6;
+   
+    color:black;
+   
    
 }
 .mission p{
@@ -354,14 +352,12 @@ color: rgb(92, 91, 91);
     font-size: 1.6em;
 }
 .vision{
-    border-bottom: 2px solid black;
-    border-left: 2px solid black;
-    border-right: 2px solid black;
+   
     padding: 10px;
 
-    background-color: black;
-    color:white;
-    opacity: .6;
+   
+    color:black;
+    
     
 }
 
