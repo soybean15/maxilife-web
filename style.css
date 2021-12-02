@@ -437,11 +437,10 @@ color: rgb(92, 91, 91);
 /*end of About HTMl*/
 
 /*Doctor HTMl*/
-.doc-row{
+.doctors{
     text-align: center;
     padding: 20px;
 }
-
 .doc-photo{
     width: 250px;
     height: 250px;
@@ -464,19 +463,15 @@ color: rgb(92, 91, 91);
 
 @media screen and (max-width: 750px) {
        
+    .doctors{
+        padding: 30px;
+    }
     .doc-photo{
         width: 180px;
-        height: 190px;
+        height: 180px;
         border: 1px solid black;
         border-radius: 50%;
      
-    }
-
-    .doc-title p{
-        font-size: .8em;
-    }
-    .doc1{
-        font-size: .7em;
     }
 
 
