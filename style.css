@@ -326,6 +326,12 @@ color: rgb(92, 91, 91);
     font-weight: bold;
     padding: 0px;
     font-size: 1em;}
+
+
+    .doc-title p{
+        font-size: 1em;
+    }
+    
 }
 
 /*About HTMl*/
