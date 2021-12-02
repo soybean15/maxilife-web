@@ -286,7 +286,9 @@ color: rgb(92, 91, 91);
     }
  
 }
-
+.dropdown-menu{
+    padding: 10px;
+}
 
 @media screen and (max-width: 750px) {
 
@@ -426,4 +428,27 @@ color: rgb(92, 91, 91);
     font-weight: bold;
     font-size: 1.3em;
 }
-/*SErvices of About HTMl*/
+/*end of About HTMl*/
+
+/*Doctor HTMl*/
+.doc-row{
+    text-align: center;
+    padding: 20px;
+}
+
+.doc-photo{
+    width: 250px;
+    height: 250px;
+  
+    border: 3px solid black;
+    border-radius: 50%;
+}
+
+.doc-title{
+    padding: 5px;
+}
+.doc-title p{
+    font-size: 2em;
+}
+
+/*end ofDoctor HTMl*/
