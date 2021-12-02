@@ -412,12 +412,12 @@ color: rgb(92, 91, 91);
 /*SErvices HTMl*/
 .service-header{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 3em;
+    font-size: 2.5em;
 }
 
 .service-offered-title{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 3em;
+    font-size: 2.5em;
     color: green;
 }
 
@@ -426,13 +426,17 @@ color: rgb(92, 91, 91);
     font-size: 2em;
 }
 .service-schedule{
-    margin-top: 10%;
+    margin-top: 20%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 1em;
 }
 .service-schedule-title{
     font-weight: bold;
     font-size: 1.3em;
+}
+
+.red{
+    color: red;
 }
 /*end of About HTMl*/
 
