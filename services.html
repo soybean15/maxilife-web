@@ -1,154 +1,486 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Maxilife|Mission and Vision</title>
-    <script src="https://kit.fontawesome.com/05a94e2782.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet"
-        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css"
-        integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
-        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#myNav"><span
-                class="navbar-toggler-icon"></span></button>
-        <ul id="logo">
-            
-           <li> <img src="img/navlogo.png"></li>
-        <li >Maxilife</li> 
-            
-        </ul>
-        <div id="myNav" class="collapse navbar-collapse">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                <li class="dropdown"><a class="nav-link dropdown-toggle" data-toggle="dropdown" href="">About</a>
-                    <span class="caret"></span></a>
-                    <ul class="dropdown-menu dropdown-menu-left bg-dark navbar-dark">
-                        <li><a href="about.html">Mission and Vision</a></li>
-                        <li><a href="doctors.html">The Doctors</a></li>
-
-                    </ul>
-                </li>
-                <li class="nav-item"><a class="nav-link active" href="#">Services</a></li>
-                <li class="nav-item"><a class="nav-link" href="#contacts">Contact</a></li>
-            </ul>
-        </div>
-    </nav>
-
-    <div class="container">
-        <div class="service-header">
-        <span><span class="red">Libre</span> ang panganganak! basta may <span class="red">PHILHEALTH</span></span></div>
-        <hr>
-        <span class="service-offered-title">SERVICES OFFERED</span>
-        <ul class="service-list">
-            <li>27/7 Lying-in</li>
-            <li>OB-Gyne</li>
-            <li>Urology</li>
-            <li>Ultrasound</li>
-            <li>Diagnostic Laboratory</li>
-            <li>Pharmacy</li>
-            <li>Gyne Aesthetics</li>
-        </ul>
-
-        <div class="service-schedule">
-            <span class="service-schedule-title">CLINIC SCHEDULE</span>
-            <p>OB-Gyne: Mon/Wed/Fri/Sat from 1PM-5PM<br>
-            PEDIA: Mon/Wed/Fri/Sat from 9AM-12PM<br>
-            UROLOGY: Tue/Thu/Sat from 3pm-5pm</p>
-        </div>
-    </div>
-
-    <footer id="contacts" class="page-footer bg-dark">
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Oswald:wght@200&display=swap');
+body{
+    background: rgb(180,232,229);
+background: linear-gradient(0deg, rgba(180,232,229,1) 0%, rgba(186,238,235,1) 0%, rgba(255,244,225,1) 68%, rgba(34,193,195,1) 100%);
+}
 
 
-        <div class="container bg-dark">
+a{
+    text-decoration: none;
+    color: crimson
+}
+a:hover{
+    color: peru;
+}
+
+.brd{
+    border: 1px solid rgb(168, 168, 168);
+    border-radius: 5px;
+    
+}
+
+.navbar a{
+    color: white;
+}
 
 
-            <div class="row">
+#logo{
+    float: left;
+    width: 40%;
+    text-align: left;
+    margin: 0;
+    color: white;
+    font-size: 1.5em;
+}
+
+#logo img{
+    width: 30px;
+    height: 30px;
+    margin-top: 0;
+}
+#logo span{
+    color: white;
+    font-size: medium;
+    text-transform: uppercase;
+}
+#logo{
+    padding: 0;
+}
 
 
-                <div class="col">
+#logo li{
+    display: inline-block;
+    
+}
 
-                </div>
-                <div class="socialmedia col">
-                    <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
-                </div>
-                <div class="socialmedia col">
-                    <a href="https://www.facebook.com/maxilife.multispecialty.clinic" target="_blank"><i
-                            class="fab fa-facebook"></i></a>
-                </div>
-                <div class="socialmedia col">
-                    <a href="#" target="_blank"> <i class="fab fa-instagram"></i></a>
-                </div>
-                <div class="socialmedia col">
-                    <a href="#" target="_blank"><i class="fas fa-envelope"></i></a>
-                </div>
-                <div class="socialmedia col">
+.clear{
+    clear: both;
+}
 
-                </div>
+.second{
+    margin-top: 3%;
+    padding: 10px;
+}
 
-            </div>
-            <div class="footerinfo row">
-                <div class="col">
-                    <span class="footertitle">Maxilife Maternity Lying-in and Multispecialty Clinic Co.</span>
-                    <p class="footerdesc">Maxilife is a healthcare facility more popularly known as Birthing Clinic & Multispecialty Center in San Fernando Sur, Cabiao Nueva Ecija.</p>
-                </div>
-                <div class="col">
-                    <span class="footertitle">Address</span>
-                    <p class="footerdesc">
-                        Jose Abad Santos Avenue, San Fernando Sur 3107 Cabiao, Philippines</p>
-                </div>
-                <div class="col">
-                    <span class="footertitle">Contacts</span>
-                    <ul class="footerlist footerdesc">
-                        <li>
-                            <i class="fas fa-phone-alt"></i><a href="0933 818 5130">0933 818 5130</a>
-                        </li>
-                        <li>
-                            <i class="fas fa-envelope"></i><a href="mailto: maxilife_clinic2018@yahoo.com"> maxilife_clinic2018@yahoo.com</a>
-                        </li>
-                        <li>
-                            <i class="fab fa-facebook"></i><a href="https://www.facebook.com/maxilife.multispecialty.clinic" target="_blank">Facebook Page</a>
-                        </li>
-                    </ul>
-                </div>
-                </div>
-            
-            </div>
+.welcomecontent{
+    padding: 20px;
+    border: 5px solid white;
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 90px;
+    background-color: black;
+    opacity: 0.6;
+}
+#welcome{
 
-        </div>
+    color: white;
+    background-image: linear-gradient(rgba(26, 27, 32, 0.527),rgba(5, 4, 5, 0.5)) ,url(img/welcomeBg.jpg);
+    background-repeat: no-repeat;
+   background-size: cover;
+    background-position: center;
+    padding: 20px 0 20px 0;
+   
+    margin-bottom: 30px;
+    background-color: rgb(92, 88, 88);
+    
+}
+#welcomeHeader{
+    font-size: 2em;
+    padding: 10px;
+}
+
+#welcome p{
+    font-size: .8em;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+img{
+    max-width: 100%;
+}
+
+.content{
+    float: left;
+    width: 60%;
+    padding: 5px;
+}
+
+.sidemenu{
+    
+    float: right;
+    width: 40%;
+    padding: 5px;
+    
+}
+
+.newssection{
+    max-height: 575px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.sidemenu a{
+    text-decoration: none;
+}
+
+
+.fas-bars{
+    font-size: 2.5em;
+}
+
+.dropdown-menu{
+    background-color: darkgray;
+    padding: 3px;
+}
+
+.slideimg{
+    height: 230px;
+}
+
+.cardphoto{
+    height: 160px;
+    width: 300px;
+   
+}
+.newshead hr{
+    border: 2px solid rgb(134, 148, 73);
+
+}
+.newssection div{
+    padding: 5px;
+    margin: auto;
+}
+
+#newstitle{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 1.3em;
+    padding: 5px;
+    margin-top: 0;
+}
+
+#newsdesciption{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 0.8em;
+    padding: 5px;
+}
+
+.newshead{
+    
+
+font-family: 'Oxygen', sans-serif;
+color: rgb(92, 91, 91);
+
+}
+.newsimage{
+    height: 160px;
+    width: 300px;
+    padding: 5px;
+   
+}
+
+.newstime{
+    padding: 5px;
+}
+
+
+.socialmedia{
+    font-size: 2em;
+    display: block;
+    padding: 10px;
+}
+.socialmedia a{
+    color: white;
+}
+.socialmedia a:hover{
+    color: rgb(210, 230, 141);
+}
+
+.copyright{
+    background-color: rgb(36, 37, 41);
+    color: azure;
+}
+
+.footertitle{
+   
+    color: white;
+   
+   
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.footerdesc{
+    color: rgb(233, 231, 231);
+    font-size: .8em;
+}
+.footerlist{
+   
+    list-style: none;
+    padding: 0;
+}
+
+.footerlist a{
+    padding: 8px;
+    text-decoration: none;
+    color: white;
+    
+}
+.footerlist a:hover{
+   
+    color: crimson;
+    
+}
+
+.card-item h5{
+    font-weight: bold;
+}
+   
+   
+@media screen and (max-width: 990px) {
+    .content{
+        float: none;
+        width: 100%;
+        padding: 5px;
+    }
+    .sidemenu{
+        
+        float: none;
+        width: 100%;
+        padding: 5px;
+        
+        max-height: 100%;
+    }
+    .newssection{
+        max-height: 100%;
+        overflow: hidden;
+        
+    }
+}
+@media screen and (max-width: 700px) {
+    .content{
+        float: none;
+        width: 100%;
+        padding: 5px;
+    }
+    
+    .sidemenu{
+     
+        float: none;
+        width: 100%;
+        padding: 5px;
+        overflow: hidden;
+        max-height: 100%;
+    }
+
+    .newssection{
+        max-height: 100%;
+        overflow: hidden;
+        
+    }
+ 
+    #logo{
+        width: 80%;
+    }
+ 
+}
+.dropdown-menu{
+    padding: 10px;
+}
+
+@media screen and (max-width: 750px) {
+
+    .card-item{
+        margin: auto;
+        margin-top: 2%;
+        max-width: 100%;
+       background-color: transparent;
+        font-family: 'Titillium Web', sans-serif;
+        padding: 10px;
+        border: none;
+       
+    }
+    .second{
+        margin-top: 4%;
+        
+    }
+    .card-item h5{
+        font-weight: bold;
+    }
+
+ 
+
+   
+    
+}
+
+
+@media screen and (max-width: 750px) {
+    #welcome{
+        background-image: linear-gradient(rgba(26, 27, 32, 0.527),rgba(5, 4, 5, 0.5)) ,url(img/welcomeBg2.jpg);
+        
+    }
+    .aboutcontent{
+       
+    font-family: 'Lato', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    background-position: center-top;
+    font-weight: bold;
+    padding: 0px;
+    font-size: 1em;}
 
     
+}
+
+/*About HTMl*/
+
+.aboutcontent{
+    
+    background: url("img/aboutlogo.png");
+    text-align: center;
+ 
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position:center;
+    
+}
+.content2{
+    
+    top: 8px;
+    font-weight: bold;
+    margin: auto;
+    padding: 50px;
+   
+   
+}
+.mission{
+   
+    padding: 10px;
+   
+    color:black;
+   
+   
+}
+.mission p{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 1.6em;
+}
+.vision{
+   
+    padding: 10px;
+
+   
+    color:black;
+    
+    
+}
+
+.vision p{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 1.6em;
+}
+.missionh1{
+ 
+    font-family: 'Brush Script MT', cursive;
+    font-weight: bold;
+    font-size: 3em;
+    color: #D82222;
+}
+.blue{
+    color:#0213D6 ;
+}
+.bgimage{
+    max-width: 100%;
+    width: 600px;
+    height: 600px;
+    filter: opacity(30%);
+    z-index:0;
+}
+
+.filler{
+    height: 200px;
+}
+
+/*end of About HTMl*/
+
+/*SErvices HTMl*/
+.service-header{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.service-offered-title{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2.5em;
+    color: green;
+}
+
+.service-list{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2em;
+}
+.service-schedule{
+    margin-top: 20%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1em;
+}
+.service-schedule-title{
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+.red{
+    color: crimson;
+}
+/*end of About HTMl*/
+
+/*Doctor HTMl*/
+.doctors{
+    text-align: center;
+    padding: 20px;
+}
+.doc-photo{
+    width: 250px;
+    height: 250px;
+  
+    border: 3px solid black;
+    border-radius: 50%;
+    max-width: 100%;
+}
+
+.doc-title{
+    white-space: nowrap;
+    overflow:hidden;
+    padding: 5px;
+}
+.doc-title p{
+    font-size: 2em;
+}
+
+
+
+@media screen and (max-width: 750px) {
        
+    .doctors{
+        padding: 30px;
+    }
+    .doc-photo{
+        width: 180px;
+        height: 180px;
+        border: 1px solid black;
+        border-radius: 50%;
+     
+    }
 
-        <div class="copyright footer-copyright text-center py-3">©2020 Copyright:
-            Maxilife
-        </div>
 
 
-    </footer>
-
-
-
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
-</body>
-
-</html>
+}
+/*end ofDoctor HTMl*/
