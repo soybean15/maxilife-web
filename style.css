@@ -465,8 +465,8 @@ color: rgb(92, 91, 91);
 @media screen and (max-width: 750px) {
        
     .doc-photo{
-        width: 150px;
-        height: 150px;
+        width: 180px;
+        height: 190px;
         border: 1px solid black;
         border-radius: 50%;
      
@@ -475,6 +475,11 @@ color: rgb(92, 91, 91);
     .doc-title p{
         font-size: .8em;
     }
+    .doc1{
+        font-size: .7em;
+    }
+
+
 
 }
 /*end ofDoctor HTMl*/
