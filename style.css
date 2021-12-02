@@ -309,6 +309,10 @@ color: rgb(92, 91, 91);
     .card-item h5{
         font-weight: bold;
     }
+
+ 
+
+   
     
 }
 
@@ -327,10 +331,6 @@ color: rgb(92, 91, 91);
     padding: 0px;
     font-size: 1em;}
 
-
-    .doc-title p{
-        font-size: 1em;
-    }
     
 }
 
@@ -460,4 +460,21 @@ color: rgb(92, 91, 91);
     font-size: 2em;
 }
 
+
+
+@media screen and (max-width: 750px) {
+       
+    .doc-photo{
+        width: 150px;
+        height: 150px;
+        border: 1px solid black;
+        border-radius: 50%;
+     
+    }
+
+    .doc-title p{
+        font-size: .8em;
+    }
+
+}
 /*end ofDoctor HTMl*/
