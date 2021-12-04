@@ -131,7 +131,11 @@ img{
 
 .dropdown-menu{
     background-color: darkgray;
-    padding: 3px;
+   
+}
+.dropdown-menu a{
+    margin-top: 0;
+    margin-bottom: 5px;
 }
 
 .slideimg{
@@ -502,5 +506,154 @@ color: rgb(92, 91, 91);
     padding: 5%;
 }
 
+/*end -of facilities HTML*/
 
+
+/*BSIT HTML*/
+.bsit-header{
+    padding: 20px;
+  
+    font-family: 'Lato', sans-serif;
+
+    font-weight: bold;
+}
+.bsit{
+    margin-top: 4%;
+    text-align: justify;
+    text-align-last: center;
+}
+
+.bsitlist{
+    list-style: none;
+    padding: 0;
+}
+
+.bsit-name{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.bsit a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+
+
+.bsit a:hover{
+    text-decoration: none;
+    color: crimson;
+    padding: 10px;
+}
+
+.bsit-item{
+
+    width: 300px;
+    height: 300px;
     
+    text-align: center; 
+    box-shadow: b;
+    margin-bottom: 2%;
+    margin-left: 1%;
+    margin-right: 1%;
+    box-shadow: 10px 10px 8px #888888;
+
+}
+
+.nestor{
+        
+    background: url("img/bsit/nestor.jpg");
+    background-position:50% 50%;
+    background-size: 320px 300px;
+    background-repeat: no-repeat;
+}
+
+.paulo{
+    background: url("img/bsit/paulo.jpg");
+    background-position:50% 50%;
+    background-size: 320px 300px;
+    background-repeat: no-repeat;
+    
+}
+.norman{
+    background: url("img/bsit/norman.jpg");
+    background-position:50% 50%;
+    background-size: 320px 300px;
+    background-repeat: no-repeat;
+}
+.remric{
+    background: url("img/bsit/remric.jpg");
+    background-position:50% 50%;
+    background-size: 320px 300px;
+    background-repeat: no-repeat;
+}
+
+.dhalton{
+    background: url("img/bsit/dhalton.jpg");
+    background-position:50% 50%;
+    background-size: 320px 300px;
+    background-repeat: no-repeat;
+    
+}
+.johncarlo{
+    background: url("img/bsit/johncarlo.jpg");
+    background-position:50% 50%;
+    background-size: 320px 300px;
+    background-repeat: no-repeat;
+}
+
+.jericho{
+    background: url("img/bsit/jericho.jpg");
+    background-position:50% 50%;
+    background-size: 320px 300px;
+    background-repeat: no-repeat;
+}
+.kelly{
+    background: url("img/bsit/kelly.jpg");
+    background-position:50% 50%;
+    background-size: 320px 300px;
+    background-repeat: no-repeat;
+}
+
+.jowel{
+    background: url("img/bsit/jowel.jpg");
+    background-position:50% 50%;
+    background-size: 320px 300px;
+    background-repeat: no-repeat;
+}
+.jean{
+    background: url("img/bsit/jean.jpg");
+    background-position:50% 50%;
+    background-size: 320px 300px;
+    background-repeat: no-repeat;
+}
+.avegail{
+    background: url("img/bsit/avegail.jpg");
+    background-position:50% 50%;
+    background-size: 320px 300px;
+    background-repeat: no-repeat;
+}
+.ailyn{
+    background: url("img/bsit/ailyn.jpg");
+    background-position:50% 50%;
+    background-size: 320px 300px;
+    background-repeat: no-repeat;
+}
+
+.marlon{
+    background: url("img/bsit/marlon.jpg");
+    background-position:50% 50%;
+    background-size: 320px 300px;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 750px) {
+    .bsit{
+        max-width: 100%;
+        margin: auto;
+        margin-left: 15%;
+    }
+}
