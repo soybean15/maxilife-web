@@ -649,11 +649,17 @@ color: rgb(92, 91, 91);
     background-size: 320px 300px;
     background-repeat: no-repeat;
 }
+.daniel{
+    background: url("img/bsit/daniel.jpg");
+    background-position:50% 50%;
+    background-size: 320px 300px;
+    background-repeat: no-repeat;
+}
 
 @media screen and (max-width: 750px) {
     .bsit{
         max-width: 100%;
         margin: auto;
-        margin-left: 10%;
+        margin-left: 9%;
     }
 }
